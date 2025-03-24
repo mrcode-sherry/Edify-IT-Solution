@@ -21,11 +21,13 @@ body {
 }
 
 .btn {
-  @apply bg-[#512FEB];
+  /* @apply bg-[#512FEB]; */
+  background-color: #512FEB;
 }
 
 .card {
-  @apply bg-[#0F0F0F]
+  /* @apply bg-[#0F0F0F]; */
+  background-color: #0F0F0F;
 }
 
 * {
