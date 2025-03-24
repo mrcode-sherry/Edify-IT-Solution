@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  @apply bg-black text-white; /* Tailwind classes for background and text */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+  @apply bg-[#512FEB];
+}
+
+.card {
+  @apply bg-[#0F0F0F]
+}
+
+* {
+  font-family: 'Outfit', sans-serif;
+}
+
+.icon{
+  @apply bg-[#333333]
+}
