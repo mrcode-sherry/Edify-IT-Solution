@@ -14,17 +14,22 @@ export default function Hero() {
 
       {/* Content inside Particles */}
       <div className="relative z-10 flex justify-center items-center h-full px-6">
-        <div className="flex flex-col items-center mt-14 md:mt-16 text-center gap-8 md:gap-6 max-w-2xl md:max-w-5xl">
+        <div className="flex flex-col items-center mt-14 md:mt-16 text-center gap-8 md:gap-6 max-w-xl md:max-w-5xl mx-auto">
           {/* First Div with Background & Padding */}
           <motion.div
             initial={{ y: 40, opacity: 0 }}
             whileInView={{ y: 0, x: 0, opacity: 1 }}
             transition={{ duration: 0.3, delay: 0.2 }}
-            className="bg-[#100F17] border border-white border-opacity-30 px-4 py-2 rounded-lg md:px-4 flex flex-row gap-3 md:w-fit w-[400px]"
+            className="bg-[#100F17] border border-white border-opacity-30 px-4 py-2 rounded-lg md:px-4 flex flex-row gap-3 md:w-fit w-[400px] mx-auto items-center justify-center"
           >
-            <img src="EdifySymbols.png" alt="" width={18} height={18} />
-            <p className="text-[#D9D8DF] md:text-[16.5px] font-semibold text-sm">
-              {/* Radison - AI Automation Partner */}
+            <img
+              src="EdifySymbols.png"
+              alt=""
+              width={18}
+              height={18}
+              className="sm:mx-auto"
+            />
+            <p className="text-[#D9D8DF] md:text-[16.5px] text-center font-semibold text-sm">
               Edify IT Solutions - About Our Company
             </p>
           </motion.div>
@@ -50,7 +55,9 @@ export default function Hero() {
             >
               {/* Experience the future of business with intelligent, scalable
               automation solutions tailored to your needs. */}
-              We transform complexity into simplicity with intelligent software solutions designed to streamline processes and enhance efficiency. Our smart systems empower businesses to work smarter, not harder.
+              We transform complexity into simplicity with intelligent software
+              solutions designed to streamline processes and enhance efficiency.
+              Our smart systems empower businesses to work smarter, not harder.
             </motion.p>
           </div>
 
