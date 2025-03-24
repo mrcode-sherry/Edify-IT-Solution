@@ -62,7 +62,7 @@ export default function Process() {
        {works.map((work, index) => (
           <div
             key={index}
-            className="group bg-[#0F0F0F] dark:bg-dimBlack rounded-[30px] sm:rounded-[40px] lg:rounded-[50px] overflow-hidden p-3 sm:p-5"
+            className="group bg-[#0F0F0F] rounded-[30px] sm:rounded-[40px] lg:rounded-[50px] overflow-hidden p-3 sm:p-5"
           >
             <div>
               <div className="relative w-full rounded-[20px] sm:rounded-[25px] lg:rounded-[35px] overflow-hidden aspect-video">
@@ -75,7 +75,7 @@ export default function Process() {
               </div>
             </div>
             <div className="px-5 pt-5 sm:pt-7 pb-3 sm:pb-5">
-              <div className="text-[20px] lg:text-[24px] font-bold dark:text-white">
+              <div className="text-[20px] lg:text-[24px] font-bold">
                 {work.title}
               </div>
               <div className="text-[#9C9FA6] mt-2 sm:mt-3 font-semibold text-sm md:text-base">

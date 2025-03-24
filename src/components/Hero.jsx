@@ -22,7 +22,7 @@ export default function Hero() {
             transition={{ duration: 0.3, delay: 0.2 }}
             className="bg-[#100F17] border border-white border-opacity-30 px-4 py-2 rounded-lg md:px-4 flex flex-row gap-3 md:w-fit w-[400px]"
           >
-            <img src="edify4.png" alt="" width={18} height={18} />
+            <img src="EdifySymbols.png" alt="" width={18} height={18} />
             <p className="text-[#D9D8DF] md:text-[16.5px] font-semibold text-sm">
               {/* Radison - AI Automation Partner */}
               Edify IT Solutions - About Our Company

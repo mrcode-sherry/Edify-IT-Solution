@@ -120,12 +120,12 @@ export default function Services() {
       </motion.div>
 
       {/* Section two */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-7 mt-16 w-full">
+      <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-7 mt-16 w-full">
         {/* First Row - Three Images */}
         {services.map((service, index) => (
           <div
             key={index}
-            className="group bg-[#0F0F0F] dark:bg-black rounded-[35px] overflow-hidden p-5 lg:p-7 flex flex-col"
+            className="group bg-[#0F0F0F] rounded-[35px] overflow-hidden p-5 lg:p-7 flex flex-col"
           >
             <div className="flex-1">
               <div className="">
@@ -138,8 +138,8 @@ export default function Services() {
                   />
                 </div>
               </div>
-              <div className="flex items-center justify-between pt-5 gap-3 pb-5  dark:border-gray-700">
-                <span className="dark:text-white text-[20px] lg:text-[24px] font-bold w-full">
+              <div className="flex items-center justify-between pt-5 gap-3 pb-5">
+                <span className="text-[20px] lg:text-[24px] font-bold w-full">
                   {service.title}
                 </span>
                 <span className="-rotate-45 cursor-pointer group-hover:rotate-0 duration-300 text-base sm:text-lg md:text-xl xl:text-2xl bg-logoBlue text-white rounded-full p-2 xl:p-2 bg-[#512FEB]">
