@@ -20,7 +20,7 @@ export default function Hero() {
             initial={{ y: 40, opacity: 0 }}
             whileInView={{ y: 0, x: 0, opacity: 1 }}
             transition={{ duration: 0.3, delay: 0.2 }}
-            className="bg-[#100F17] border border-white border-opacity-30 px-4 py-2 rounded-lg md:px-4 flex flex-row gap-3 md:w-fit w-[400px] mx-auto items-center justify-center"
+            className="bg-[#100F17] border border-white border-opacity-30 px-4 py-2 rounded-lg md:px-4 flex flex-row gap-3 w-fit mx-auto items-center justify-center"
           >
             <img
               src="EdifySymbols.png"
